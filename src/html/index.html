@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+     .list-complete-item {
+      transition: all 1s;
+      display: inline-block;
+      margin-right: 10px;
+    }
+    .list-complete-enter, .list-complete-leave-to
+    {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    .list-complete-leave-active {
+      position: absolute;
+    } 
+  </style>
+</head>
+<body>
+  <div class="container-fluid">
+    <app1></app1>
+    <app2></app2>
+    <app3></app3>
+    <app4></app4>
+    <date-example></date-example>
+    <watch-example></watch-example>
+    <computed-example></computed-example>
+    <partial-component-example></partial-component-example>
+    <animate-example></animate-example>
+    <list-demo></list-demo>
+    <list-complete-demo></list-complete-demo>
+  </div>
+</body>
+</html>
