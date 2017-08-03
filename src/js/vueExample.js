@@ -1,4 +1,5 @@
 import Vue from 'vue'
+import VueRouter from 'vue-router'
 import App1 from './../components/app1.vue'
 import App2 from './../components/app2.vue'
 import App3 from './../components/app3.vue'
@@ -10,6 +11,10 @@ import PartialComponentExample from './../components/partialComponentExample.vue
 import AnimateExample from './../components/animateExample.vue'
 import ListDemo from './../components/listDemo.vue'
 import ListCompleteDemo from './../components/listCompleteDemo.vue'
+import ReadMeExample from './../components/readMeExample.vue'
+
+
+Vue.use(VueRouter)
 
 module.exports = {
   app: new Vue({
@@ -26,6 +31,7 @@ module.exports = {
       animateExample: AnimateExample,
       listDemo: ListDemo,
       listCompleteDemo: ListCompleteDemo,
+      readMeExample: ReadMeExample
     },
   }),
 }

@@ -57,6 +57,10 @@ module.exports = new WebpackConfig.Config().merge({
         test: /\.vue$/,
         loader: 'vue-loader',
       },
+      {
+        test: /\.md$/,
+        loader: 'vue-markdown-loader',
+      },
     ],
   },
   plugins: [
